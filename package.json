@@ -3,7 +3,7 @@
 	"private": true,
 	"homepage": "https://directus.io",
 	"scripts": {
-		"build": "pnpm --recursive --filter '!docs' run build",
+		"build": "pnpm --recursive --filter '!docs' run build --output public",
 		"format": "prettier --cache --check .",
 		"lint": "eslint --cache .",
 		"test": "pnpm --recursive --filter '!tests-blackbox' test",
